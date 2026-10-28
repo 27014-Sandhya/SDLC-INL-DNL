@@ -19,13 +19,13 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="INL" Type="Folder">
-				<Item Name="INL_Status.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Status.vi"/>
+				<Item Name="INL_Result.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Result.vi"/>
 				<Item Name="Test_INL.vi" Type="VI" URL="../SubVIs/Tests/INL/Test_INL.vi"/>
 				<Item Name="INL_Measurement_Spec.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Measurement_Spec.vi"/>
 			</Item>
 			<Item Name="DNL" Type="Folder">
 				<Item Name="Test_DNL.vi" Type="VI" URL="../SubVIs/Tests/DNL/Test_DNL.vi"/>
-				<Item Name="DNL_Status.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Status.vi"/>
+				<Item Name="DNL_Result.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Result.vi"/>
 				<Item Name="DNL_Measurement_Spec.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Measurement_Spec.vi"/>
 			</Item>
 		</Item>
