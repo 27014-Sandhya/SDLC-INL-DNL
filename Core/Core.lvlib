@@ -21,10 +21,12 @@
 			<Item Name="INL" Type="Folder">
 				<Item Name="INL_Status.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Status.vi"/>
 				<Item Name="Test_INL.vi" Type="VI" URL="../SubVIs/Tests/INL/Test_INL.vi"/>
+				<Item Name="INL_Measurement_Spec.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Measurement_Spec.vi"/>
 			</Item>
 			<Item Name="DNL" Type="Folder">
 				<Item Name="Test_DNL.vi" Type="VI" URL="../SubVIs/Tests/DNL/Test_DNL.vi"/>
 				<Item Name="DNL_Status.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Status.vi"/>
+				<Item Name="DNL_Measurement_Spec.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Measurement_Spec.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Driver_Event.vi" Type="VI" URL="../SubVIs/Driver_Event.vi"/>
@@ -35,6 +37,7 @@
 		<Item Name="Load_Icons.vi" Type="VI" URL="../SubVIs/Load_Icons.vi"/>
 		<Item Name="Run_VI.vi" Type="VI" URL="../SubVIs/Run_VI.vi"/>
 		<Item Name="Run_Many_VI.vi" Type="VI" URL="../SubVIs/Run_Many_VI.vi"/>
+		<Item Name="Notifier_Manager.vi" Type="VI" URL="../SubVIs/Notifier_Manager.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -44,10 +47,18 @@
 		<Item Name="DAC" Type="Folder">
 			<Item Name="Enum_DAC_Tests.ctl" Type="VI" URL="../TypeDefs/DAC/Enum_DAC_Tests.ctl"/>
 		</Item>
+		<Item Name="Notification_Clusters" Type="Folder">
+			<Item Name="Cluster_ADC_Instrument_Specs.ctl" Type="VI" URL="../TypeDefs/Notification_Clusters/Cluster_ADC_Instrument_Specs.ctl"/>
+			<Item Name="Cluster_INL_Measurement_Specs.ctl" Type="VI" URL="../TypeDefs/Notification_Clusters/Cluster_INL_Measurement_Specs.ctl"/>
+			<Item Name="Cluster_DNL_Measurement_Specs.ctl" Type="VI" URL="../TypeDefs/Notification_Clusters/Cluster_DNL_Measurement_Specs.ctl"/>
+			<Item Name="Cluster_DAC_Instrument_Specs.ctl" Type="VI" URL="../TypeDefs/Notification_Clusters/Cluster_DAC_Instrument_Specs.ctl"/>
+		</Item>
 		<Item Name="Button_Tab_Selector.ctl" Type="VI" URL="../TypeDefs/Button_Tab_Selector.ctl"/>
 		<Item Name="Cluster_Queue_Element.ctl" Type="VI" URL="../TypeDefs/Cluster_Queue_Element.ctl"/>
 		<Item Name="Enum_Event_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Event_Options.ctl"/>
 		<Item Name="Enum_Events.ctl" Type="VI" URL="../TypeDefs/Enum_Events.ctl"/>
+		<Item Name="Enum_Notifier_Name.ctl" Type="VI" URL="../TypeDefs/Enum_Notifier_Name.ctl"/>
+		<Item Name="Enum_Notifier_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Notifier_Options.ctl"/>
 		<Item Name="Enum_Queue_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Queue_Options.ctl"/>
 		<Item Name="Enum_Queues.ctl" Type="VI" URL="../TypeDefs/Enum_Queues.ctl"/>
 		<Item Name="Picture_Box_Invisible.ctl" Type="VI" URL="../TypeDefs/Picture_Box_Invisible.ctl"/>
