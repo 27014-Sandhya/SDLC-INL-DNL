@@ -5,19 +5,28 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Config_Page" Type="Folder">
-			<Item Name="ADC_Config_Page.vi" Type="VI" URL="../SubVIs/Config_Page/ADC_Config_Page.vi"/>
-			<Item Name="DAC_Config_Page.vi" Type="VI" URL="../SubVIs/Config_Page/DAC_Config_Page.vi"/>
-			<Item Name="INL_DNL_Config_Page.vi" Type="VI" URL="../SubVIs/Config_Page/INL_DNL_Config_Page.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Device_Mode" Type="Folder">
+			<Item Name="ADC" Type="Folder">
+				<Item Name="ADC_Instrument_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC_Instrument_Specs.vi"/>
+				<Item Name="ADC_Measurement_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC_Measurement_Specs.vi"/>
+				<Item Name="ADC.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC.vi"/>
+			</Item>
+			<Item Name="DAC" Type="Folder">
+				<Item Name="DAC_Instrument_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/DAC/DAC_Instrument_Specs.vi"/>
+				<Item Name="DAC_Measurement_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/DAC/DAC_Measurement_Specs.vi"/>
+			</Item>
 		</Item>
-		<Item Name="Measurement_Algorithms" Type="Folder">
-			<Item Name="Test_DNL.vi" Type="VI" URL="../SubVIs/Measurement_Algorithms/Test_DNL.vi"/>
-			<Item Name="Test_INL.vi" Type="VI" URL="../SubVIs/Measurement_Algorithms/Test_INL.vi"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="INL" Type="Folder">
+				<Item Name="INL_Status.vi" Type="VI" URL="../SubVIs/Tests/INL/INL_Status.vi"/>
+				<Item Name="Test_INL.vi" Type="VI" URL="../SubVIs/Tests/INL/Test_INL.vi"/>
+			</Item>
+			<Item Name="DNL" Type="Folder">
+				<Item Name="Test_DNL.vi" Type="VI" URL="../SubVIs/Tests/DNL/Test_DNL.vi"/>
+				<Item Name="DNL_Status.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Status.vi"/>
+			</Item>
 		</Item>
-		<Item Name="Status_Page" Type="Folder">
-			<Item Name="INL-DNL-Status.vi" Type="VI" URL="../SubVIs/Status_Page/INL-DNL-Status.vi"/>
-		</Item>
-		<Item Name="ADC.vi" Type="VI" URL="../SubVIs/ADC.vi"/>
 		<Item Name="Driver_Event.vi" Type="VI" URL="../SubVIs/Driver_Event.vi"/>
 		<Item Name="Driver_Queue.vi" Type="VI" URL="../SubVIs/Driver_Queue.vi"/>
 		<Item Name="Error_Popup.vi" Type="VI" URL="../SubVIs/Error_Popup.vi"/>
@@ -25,22 +34,22 @@
 		<Item Name="Home Page.vi" Type="VI" URL="../SubVIs/Home Page.vi"/>
 		<Item Name="Load_Icons.vi" Type="VI" URL="../SubVIs/Load_Icons.vi"/>
 		<Item Name="Run_VI.vi" Type="VI" URL="../SubVIs/Run_VI.vi"/>
+		<Item Name="Run_Many_VI.vi" Type="VI" URL="../SubVIs/Run_Many_VI.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="ADC" Type="Folder">
+			<Item Name="Enum_ADC_Tests.ctl" Type="VI" URL="../TypeDefs/ADC/Enum_ADC_Tests.ctl"/>
+		</Item>
+		<Item Name="DAC" Type="Folder">
+			<Item Name="Enum_DAC_Tests.ctl" Type="VI" URL="../TypeDefs/DAC/Enum_DAC_Tests.ctl"/>
+		</Item>
 		<Item Name="Button_Tab_Selector.ctl" Type="VI" URL="../TypeDefs/Button_Tab_Selector.ctl"/>
-		<Item Name="Cluster_INL_DNL_Data.ctl" Type="VI" URL="../TypeDefs/Cluster_INL_DNL_Data.ctl"/>
 		<Item Name="Cluster_Queue_Element.ctl" Type="VI" URL="../TypeDefs/Cluster_Queue_Element.ctl"/>
-		<Item Name="Cluster_Test_Data.ctl" Type="VI" URL="../TypeDefs/Cluster_Test_Data.ctl"/>
-		<Item Name="Enum_ADC_Tests.ctl" Type="VI" URL="../TypeDefs/Enum_ADC_Tests.ctl"/>
-		<Item Name="Enum_DAC_Tests.ctl" Type="VI" URL="../TypeDefs/Enum_DAC_Tests.ctl"/>
-		<Item Name="Enum_Data_Source.ctl" Type="VI" URL="../TypeDefs/Enum_Data_Source.ctl"/>
-		<Item Name="Enum_Device_Manager_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Device_Manager_Options.ctl"/>
 		<Item Name="Enum_Event_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Event_Options.ctl"/>
 		<Item Name="Enum_Events.ctl" Type="VI" URL="../TypeDefs/Enum_Events.ctl"/>
-		<Item Name="Enum_Measurement_Method.ctl" Type="VI" URL="../TypeDefs/Enum_Measurement_Method.ctl"/>
 		<Item Name="Enum_Queue_Options.ctl" Type="VI" URL="../TypeDefs/Enum_Queue_Options.ctl"/>
 		<Item Name="Enum_Queues.ctl" Type="VI" URL="../TypeDefs/Enum_Queues.ctl"/>
-		<Item Name="Enum_Test_Types.ctl" Type="VI" URL="../TypeDefs/Enum_Test_Types.ctl"/>
 		<Item Name="Picture_Box_Invisible.ctl" Type="VI" URL="../TypeDefs/Picture_Box_Invisible.ctl"/>
 	</Item>
 </Library>
