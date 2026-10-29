@@ -36,6 +36,8 @@
 		<Item Name="Home Page.vi" Type="VI" URL="../SubVIs/Home Page.vi"/>
 		<Item Name="Load_Icons.vi" Type="VI" URL="../SubVIs/Load_Icons.vi"/>
 		<Item Name="Run_VI.vi" Type="VI" URL="../SubVIs/Run_VI.vi"/>
+		<Item Name="Calculate_DNL_INL.vi" Type="VI" URL="../SubVIs/Tests/Calculate_DNL_INL.vi"/>
+		<Item Name="Configure_ADC_Source.vi" Type="VI" URL="../SubVIs/Configure_ADC_Source.vi"/>
 		<Item Name="Run_Many_VI.vi" Type="VI" URL="../SubVIs/Run_Many_VI.vi"/>
 		<Item Name="Notifier_Manager.vi" Type="VI" URL="../SubVIs/Notifier_Manager.vi"/>
 	</Item>
