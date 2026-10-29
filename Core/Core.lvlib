@@ -10,10 +10,12 @@
 			<Item Name="ADC" Type="Folder">
 				<Item Name="ADC_Instrument_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC_Instrument_Specs.vi"/>
 				<Item Name="ADC_Measurement_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC_Measurement_Specs.vi"/>
+				<Item Name="Configure_ADC_Source.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/Configure_ADC_Source.vi"/>
 				<Item Name="ADC.vi" Type="VI" URL="../SubVIs/Device_Mode/ADC/ADC.vi"/>
 			</Item>
 			<Item Name="DAC" Type="Folder">
 				<Item Name="DAC_Instrument_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/DAC/DAC_Instrument_Specs.vi"/>
+				<Item Name="Configure_DAC_Source.vi" Type="VI" URL="../SubVIs/Device_Mode/DAC/Configure_DAC_Source.vi"/>
 				<Item Name="DAC_Measurement_Specs.vi" Type="VI" URL="../SubVIs/Device_Mode/DAC/DAC_Measurement_Specs.vi"/>
 			</Item>
 		</Item>
@@ -28,6 +30,7 @@
 				<Item Name="DNL_Result.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Result.vi"/>
 				<Item Name="DNL_Measurement_Spec.vi" Type="VI" URL="../SubVIs/Tests/DNL/DNL_Measurement_Spec.vi"/>
 			</Item>
+			<Item Name="Calculate_DNL_INL.vi" Type="VI" URL="../SubVIs/Tests/Calculate_DNL_INL.vi"/>
 		</Item>
 		<Item Name="Driver_Event.vi" Type="VI" URL="../SubVIs/Driver_Event.vi"/>
 		<Item Name="Driver_Queue.vi" Type="VI" URL="../SubVIs/Driver_Queue.vi"/>
@@ -36,8 +39,6 @@
 		<Item Name="Home Page.vi" Type="VI" URL="../SubVIs/Home Page.vi"/>
 		<Item Name="Load_Icons.vi" Type="VI" URL="../SubVIs/Load_Icons.vi"/>
 		<Item Name="Run_VI.vi" Type="VI" URL="../SubVIs/Run_VI.vi"/>
-		<Item Name="Calculate_DNL_INL.vi" Type="VI" URL="../SubVIs/Tests/Calculate_DNL_INL.vi"/>
-		<Item Name="Configure_ADC_Source.vi" Type="VI" URL="../SubVIs/Configure_ADC_Source.vi"/>
 		<Item Name="Run_Many_VI.vi" Type="VI" URL="../SubVIs/Run_Many_VI.vi"/>
 		<Item Name="Notifier_Manager.vi" Type="VI" URL="../SubVIs/Notifier_Manager.vi"/>
 	</Item>
