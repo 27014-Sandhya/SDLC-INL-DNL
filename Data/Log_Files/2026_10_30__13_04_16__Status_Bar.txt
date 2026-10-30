@@ -1,0 +1,18 @@
+Init Home
+Load Icons
+Init Mode Selection
+Init Configuration
+Init Status & Graph
+Init Status Bar
+Poll
+Update Mode
+Poll
+Update Mode
+Poll
+Run Test
+Poll
+Update Mode
+Poll
+Update Mode
+Poll
+Exit
