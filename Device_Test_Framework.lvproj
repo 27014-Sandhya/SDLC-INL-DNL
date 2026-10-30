@@ -23,6 +23,7 @@
 				<Item Name="Mode Selection.png" Type="Document" URL="../Data/Icons/Mode Selection.png"/>
 				<Item Name="Status &amp; Graph.png" Type="Document" URL="../Data/Icons/Status &amp; Graph.png"/>
 			</Item>
+			<Item Name="Config.ini" Type="Document" URL="../Data/Config.ini"/>
 		</Item>
 		<Item Name="Core.lvlib" Type="Library" URL="../Core/Core.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>

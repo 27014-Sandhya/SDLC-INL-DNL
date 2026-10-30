@@ -38,9 +38,12 @@
 		<Item Name="Get_Tree_Item_Data.vi" Type="VI" URL="../SubVIs/Get_Tree_Item_Data.vi"/>
 		<Item Name="Home Page.vi" Type="VI" URL="../SubVIs/Home Page.vi"/>
 		<Item Name="Load_Icons.vi" Type="VI" URL="../SubVIs/Load_Icons.vi"/>
+		<Item Name="Read_from_Config_File.vi" Type="VI" URL="../SubVIs/Read_from_Config_File.vi"/>
 		<Item Name="Run_VI.vi" Type="VI" URL="../SubVIs/Run_VI.vi"/>
 		<Item Name="Run_Many_VI.vi" Type="VI" URL="../SubVIs/Run_Many_VI.vi"/>
+		<Item Name="Format_Text_File_Path.vi" Type="VI" URL="../SubVIs/Format_Text_File_Path.vi"/>
 		<Item Name="Notifier_Manager.vi" Type="VI" URL="../SubVIs/Notifier_Manager.vi"/>
+		<Item Name="Update_Status_Bar.vi" Type="VI" URL="../SubVIs/Update_Status_Bar.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

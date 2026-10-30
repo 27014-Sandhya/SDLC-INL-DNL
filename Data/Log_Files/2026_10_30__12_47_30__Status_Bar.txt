@@ -1,0 +1,22 @@
+Init Home
+Load Icons
+Init Mode Selection
+Init Configuration
+Init Status & Graph
+Init Status Bar
+
+Update Mode
+
+Update Mode
+
+Update Mode
+
+Update Mode
+
+Update Mode
+
+Update Mode
+
+Update Mode
+
+Exit

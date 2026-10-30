@@ -1,0 +1,18 @@
+Initialising...
+Initialisation complete.
+Going to Configuration Page.
+Going to Status & Graph Page.
+Executing Test...
+Going to Configuration Page.
+Going to Status & Graph Page.
+Going to Configuration Page.
+Going to Status & Graph Page.
+Going to Configuration Page.
+Going to Status & Graph Page.
+Going to Configuration Page.
+Going to Status & Graph Page.
+Executing Test...
+Going to Configuration Page.
+Going to Status & Graph Page.
+Executing Test...
+Exiting the application...
