@@ -1,7 +1,7 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
-    <VI name="Core.lvlib:Driver_Queue.vi">
+    <VI name="Core.lvlib:ADC.vi">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -13,7 +13,7 @@
         </Generic>
       </Probes>
     </VI>
-    <VI name="Core.lvlib:Test_DNL.vi">
+    <VI name="Core.lvlib:Error_Popup.vi">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -25,7 +25,7 @@
         </Generic>
       </Probes>
     </VI>
-    <VI name="Core.lvlib:Update_Status_Bar.vi">
+    <VI name="Core.lvlib:Run_VI.vi">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>

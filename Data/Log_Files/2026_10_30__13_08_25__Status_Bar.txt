@@ -1,6 +1,0 @@
-Initialising...
-Initialisation complete.
-Going to Mode Selection Page.
-Going to Configuration Page.
-Going to Status & Graph Page.
-Exiting the application...
