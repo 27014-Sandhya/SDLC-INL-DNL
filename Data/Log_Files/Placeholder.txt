@@ -1,0 +1,1 @@
+This file exists solely to include the Log_Files folder in the EXE build.
